@@ -1,0 +1,222 @@
+import React from 'react';
+
+const PPPChart = () => {
+  return (
+    <div className="flex flex-col bg-white p-4 w-full">
+      {/* Header */}
+      <div className="pb-4 border-b border-gray-200 mb-6">
+        <h1 className="text-2xl font-bold text-gray-800">Public Private Partnership zur Förderung innovativer Finanzlösungen</h1>
+        <p className="text-gray-600">Katalysator für Innovationen im Bereich Financial Wellbeing</p>
+      </div>
+
+      {/* Main Content - Two Column Layout */}
+      <div className="flex flex-col md:flex-row gap-8">
+        {/* Left Column */}
+        <div className="w-full md:w-1/2 pr-4">
+          <h2 className="text-xl font-bold text-gray-700 mb-4">Eckpunkte für PPP</h2>
+          <p className="text-gray-600 mb-6">Grundprinzipien für nachhaltige Kooperationsmodelle</p>
+
+          {/* Box 1 */}
+          <div className="bg-gray-50 p-4 rounded-lg mb-6 border-l-4 border-teal-500">
+            <div className="flex items-start mb-2">
+              <div className="bg-teal-100 p-2 rounded-full mr-3">
+                <svg className="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-700">Ausbalanciertes Ökosystem</h3>
+            </div>
+            <ul className="ml-12 space-y-2">
+              <li className="flex items-center">
+                <svg className="w-4 h-4 text-teal-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>Klare Governance mit verteilten Verantwortlichkeiten</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-4 h-4 text-teal-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>Synergie aus Top-down Standardisierung und Bottom-up Innovation</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-4 h-4 text-teal-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>Interessensausgleich zwischen kommerziellen und gesellschaftlichen Zielen</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Box 2 */}
+          <div className="bg-gray-50 p-4 rounded-lg mb-6 border-l-4 border-green-500">
+            <div className="flex items-start mb-2">
+              <div className="bg-green-100 p-2 rounded-full mr-3">
+                <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-700">Diversifizierte Stakeholder</h3>
+            </div>
+            <ul className="ml-12 space-y-2">
+              <li className="flex items-center">
+                <svg className="w-4 h-4 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>Öffentliche Hand, Finanzdienstleister, FinTechs, Tech-Provider mit definierten Rollen</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-4 h-4 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>Aktive Einbindung von Endnutzer-Perspektiven durch Fokusgruppen und Beiräte</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-4 h-4 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>Flexible Mitgliederstruktur mit unterschiedlichen Beteiligungsgraden (Standard, Premium)</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Box 3 */}
+          <div className="bg-gray-50 p-4 rounded-lg mb-6 border-l-4 border-blue-500">
+            <div className="flex items-start mb-2">
+              <div className="bg-blue-100 p-2 rounded-full mr-3">
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-700">Kongruente Anreizstruktur</h3>
+            </div>
+            <ul className="ml-12 space-y-2">
+              <li className="flex items-center">
+                <svg className="w-4 h-4 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>Messbare FWB-Verbesserung als Grundlage für finanzielle Incentives</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-4 h-4 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>Langfristige Perspektive vor kurzfristigen Gewinnen durch mehrjährige Verträge</span>
+              </li>
+              <li className="flex items-center">
+                <svg className="w-4 h-4 text-blue-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>Transparente Mehrwertdarstellung für alle Beteiligten durch Impact-Messung</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Right Column */}
+        <div className="w-full md:w-1/2">
+          <h2 className="text-xl font-bold text-blue-700 mb-4">Financial Wellbeing Ökosystem</h2>
+          <p className="text-gray-600 mb-6">Ganzheitliches Ökosystem für Standards, Bildung und Innovation</p>
+
+          {/* Box 1 */}
+          <div className="bg-blue-50 p-4 rounded-lg mb-6 border-l-4 border-blue-500">
+            <div className="flex items-start mb-3">
+              <div className="bg-blue-100 p-2 rounded-full mr-3">
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-blue-700">Standards für Financial Wellbeing</h3>
+                <p className="text-sm text-gray-600">Berücksichtigung der individuellen finanziellen Situation, Ziele und Risikotoleranz</p>
+              </div>
+            </div>
+            <ul className="ml-12 space-y-2">
+              <li className="text-gray-700">
+                <span className="font-medium">FWB-Index:</span> Einheitliche Messgrößen zur Erfassung der finanziellen Gesundheit
+              </li>
+              <li className="text-gray-700">
+                <span className="font-medium">Bildungs-Standards:</span> Qualitätskriterien für Financial Education
+              </li>
+              <li className="text-gray-700">
+                <span className="font-medium">Beratungs-Standards:</span> Ethische und fachliche Mindestanforderungen
+              </li>
+            </ul>
+          </div>
+
+          {/* Box 2 */}
+          <div className="bg-blue-50 p-4 rounded-lg mb-6 border-l-4 border-blue-500">
+            <div className="flex items-start mb-3">
+              <div className="bg-blue-100 p-2 rounded-full mr-3">
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-blue-700">Open Finance Potenzial nutzen</h3>
+                <p className="text-sm text-gray-600">Erschließung transformativer Möglichkeiten durch Datenstandards</p>
+              </div>
+            </div>
+            <ul className="ml-12 space-y-2">
+              <li className="text-gray-700">
+                <span className="font-medium">Standardisierte APIs:</span> Einheitliche Schnittstellen für Datenanbieter
+              </li>
+              <li className="text-gray-700">
+                <span className="font-medium">Datenpools:</span> Anonymisierte Analysemöglichkeiten für Produktentwicklung
+              </li>
+              <li className="text-gray-700">
+                <span className="font-medium">Personalisierung:</span> Individualisierte Angebote auf Basis einheitlicher Daten
+              </li>
+            </ul>
+          </div>
+
+          {/* Box 3 */}
+          <div className="bg-blue-50 p-4 rounded-lg mb-6 border-l-4 border-blue-500">
+            <div className="flex items-start mb-3">
+              <div className="bg-blue-100 p-2 rounded-full mr-3">
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-blue-700">KI für Demokratisierung nutzen</h3>
+                <p className="text-sm text-gray-600">Einsatz von Künstlicher Intelligenz für bessere Finanzbildung</p>
+              </div>
+            </div>
+            <ul className="ml-12 space-y-2">
+              <li className="text-gray-700">
+                <span className="font-medium">KI-Toolkit:</span> Vortrainierte Modelle für Anbieter zur Integrierung
+              </li>
+              <li className="text-gray-700">
+                <span className="font-medium">Personalisierte Bildung:</span> Adaptives Lernen nach individuellem Bedarf
+              </li>
+              <li className="text-gray-700">
+                <span className="font-medium">Bedarfsorientierte Beratung:</span> Niedrigschwellige Erstberatung für alle
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <div className="mt-4 pt-4 border-t border-gray-200 bg-gray-50 p-4 rounded-lg">
+        <div className="flex items-center justify-center">
+          <div className="flex items-center mr-8">
+            <svg className="w-6 h-6 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+            <p className="text-gray-700">Weg zum Erfolg: Technologie als Enabler, nicht als Selbstzweck</p>
+          </div>
+          <div className="flex items-center">
+            <svg className="w-6 h-6 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+            </svg>
+            <p className="text-gray-700">Kontinuierliche Evaluation und stufenweise Implementierung</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PPPChart;
