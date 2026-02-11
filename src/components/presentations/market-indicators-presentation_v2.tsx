@@ -147,8 +147,8 @@ const MarketIndicatorsPresentation = () => {
           <div className="bg-gray-100 p-4 rounded-lg">
             <p className="font-semibold">Schlüsselerkenntnisse:</p>
             <ul className="list-disc pl-5 mt-2">
-              <li>Wenn Kurs > 200-Tage-MA: Langfristiger Aufwärtstrend</li>
-              <li>Wenn Kurs > 21-Tage-MA: Kurzfristiger Aufwärtstrend</li>
+              <li>Wenn Kurs &gt; 200-Tage-MA: Langfristiger Aufwärtstrend</li>
+              <li>Wenn Kurs &gt; 21-Tage-MA: Kurzfristiger Aufwärtstrend</li>
               <li>Die Kreuzung der gleitenden Durchschnitte kann wichtige Signale liefern</li>
             </ul>
           </div>

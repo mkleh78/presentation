@@ -352,7 +352,7 @@ const Presentation = () => {
               Warnsignale
             </h3>
             <ul className="text-xs space-y-1">
-              <li>Staatsschulden > 120% des BIP</li>
+              <li>Staatsschulden &gt; 120% des BIP</li>
               <li>Größte politische Polarisierung seit 1900</li>
               <li>Steigender Populismus von links und rechts</li>
               <li>Herausforderung der bestehenden Weltordnung</li>

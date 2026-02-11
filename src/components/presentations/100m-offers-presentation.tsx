@@ -181,7 +181,7 @@ const Presentation = () => {
           
           <div className="bg-blue-50 p-5 rounded-lg border border-blue-200 mb-6">
             <p className="text-lg font-semibold text-blue-800 mb-2">Prioritätenformel:</p>
-            <p className="text-lg">Hungrige Menge > Angebotsstärke > Überzeugungskraft</p>
+            <p className="text-lg">Hungrige Menge &gt; Angebotsstärke &gt; Überzeugungskraft</p>
             <p className="mt-2 text-gray-700">Ein großartiger Markt kann selbst mit durchschnittlichem Angebot zum Erfolg führen.</p>
           </div>
           
@@ -662,10 +662,10 @@ const Presentation = () => {
             <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
               <h3 className="text-lg font-semibold mb-2 text-gray-800">Boni-Strategien</h3>
               <ul className="list-disc ml-5">
-                <li>Tools & Checklisten > zusätzliche Trainings</li>
+                <li>Tools &amp; Checklisten &gt; zusätzliche Trainings</li>
                 <li>Adressiere spezifische Einwände mit passenden Boni</li>
                 <li>Biete Lösungen für die "nächsten" Probleme</li>
-                <li>Gesamtwert der Boni > Wert des Kernangebots</li>
+                <li>Gesamtwert der Boni &gt; Wert des Kernangebots</li>
                 <li>Kombiniere mit Knappheit und Dringlichkeit</li>
                 <li>Verhandle Gruppenrabatte mit Partnerunternehmen</li>
               </ul>
@@ -938,7 +938,7 @@ const Presentation = () => {
                   <p className="text-xs italic">Zeitlimits, Preiserhöhungen, Deadlines</p>
                 </li>
                 <li className="mb-2">Füge wertvolle Boni hinzu
-                  <p className="text-xs italic">Mit Wert > Kernangebot</p>
+                  <p className="text-xs italic">Mit Wert &gt; Kernangebot</p>
                 </li>
                 <li className="mb-2">Wähle starke Garantien
                   <p className="text-xs italic">Risikoumkehr für den Kunden</p>

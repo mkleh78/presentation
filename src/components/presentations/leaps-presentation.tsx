@@ -200,10 +200,10 @@ const Presentation = () => {
             <h3 className="text-xl font-semibold">Kaufkriterien</h3>
           </div>
           <ul className="list-disc pl-5 space-y-2">
-            <li>Optionen mit hohem Delta wählen (>0,70)</li>
+            <li>Optionen mit hohem Delta wählen (&gt;0,70)</li>
             <li>Auf liquide, qualitativ hochwertige Basiswerte setzen</li>
             <li>Bei niedriger impliziter Volatilität kaufen</li>
-            <li>Ausreichende Restlaufzeit wählen (>12 Monate)</li>
+            <li>Ausreichende Restlaufzeit wählen (&gt;12 Monate)</li>
           </ul>
         </div>
       </div>
