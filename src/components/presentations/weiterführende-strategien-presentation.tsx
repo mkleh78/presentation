@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight, BarChart3, TrendingUp, DollarSign, Calendar, LineChart } from 'lucide-react';
+import { ChevronLeft, ChevronRight, BarChart3, TrendingUp, DollarSign, Calendar, LineChart as LineChartIcon } from 'lucide-react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, BarChart, Bar, Legend, LineChart, Line } from 'recharts';
 
 // Data for visualizations

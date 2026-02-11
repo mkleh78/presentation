@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Allow presentations to use full width */
+.presentation-wrapper {
+  width: 100%;
+  min-height: 600px;
+}
+
+/* Override Starlight content area for presentation pages */
+[data-has-presentation] .sl-container {
+  max-width: 100%;
+}

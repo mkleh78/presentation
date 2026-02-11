@@ -490,7 +490,7 @@ const Presentation = () => {
         <div className="bg-blue-50 p-4 rounded-lg">
           <p className="font-semibold text-xl mb-2">4. Trainingsintegration</p>
           <ul className="list-disc pl-6 space-y-1">
-            <li>Bei BOLT > 20s: Simuliertes Höhentraining beginnen</li>
+            <li>Bei BOLT &gt; 20s: Simuliertes Höhentraining beginnen</li>
             <li>Trainingsintensität an Nasenatmung anpassen</li>
             <li>Auf Atemmuster während des Trainings achten</li>
             <li>Nach Training: Rückkehr zu ruhiger Nasenatmung</li>
